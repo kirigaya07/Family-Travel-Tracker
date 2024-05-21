@@ -27,7 +27,7 @@ Family Travel Tracker is a web application built with Express.js and PostgreSQL 
    psql -U your_username -d FamilyTravel -f queries.sql
   Replace your_username with your PostgreSQL username.
 5. **Import Data**: Import data from `countries.csv` into the countries table:
-Replace your_username with your PostgreSQL username and path/to/countries.csv with the actual path to your CSV file.
+   Replace your_username with your PostgreSQL username and path/to/countries.csv with the actual path to your CSV file.
 6. Run the Application: Start the server using nodemon:
 7. Open your web browser and navigate to `http://localhost:3000` to use the application.
 
