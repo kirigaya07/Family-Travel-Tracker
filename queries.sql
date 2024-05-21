@@ -15,6 +15,13 @@ user_id INTEGER REFERENCES users(id),
 PRIMARY KEY(country_code,user_id)
 );
 
+-- ALSO EXPORT THE countries.csv IN THE TABLE --
+CREATE TABLE countries(
+id SERIAL PRIMARY KEY,
+country_code CHAR(2),
+country_name VARCHAR(45)
+);
+
 INSERT INTO users (name, color)
 VALUES ('Max', 'teal'), ('Jack', 'powderblue');
 
