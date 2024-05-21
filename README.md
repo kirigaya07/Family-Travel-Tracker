@@ -20,8 +20,8 @@ Family Travel Tracker is a web application built with Express.js and PostgreSQL 
 1. Clone the repository: `git clone https://github.com/your-username/family-travel-tracker.git`
 2. Install dependencies: `npm install`
 3. Set up PostgreSQL database:
-   - Create a PostgreSQL database named `FamilyTravel`.
-   - Modify the database configuration in `app.js` if necessary.
+   - Create a PostgreSQL database named `Skyline`.
+   - Modify the database configuration in `index.js` if necessary.
 4. **Create Tables**: Run the SQL queries to create tables by executing the contents of `queries.sql`:
    ```bash
    psql -U your_username -d FamilyTravel -f queries.sql
