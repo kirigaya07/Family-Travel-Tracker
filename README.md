@@ -1,6 +1,6 @@
 # Family Travel Tracker
 
-Family Travel Tracker is a web application built with Express.js and PostgreSQL that allows families to track the countries they have visited. Users can add new countries they have visited, view their visited countries, and switch between different family members.
+Family Travel Tracker is localized a web application built with Express.js and PostgreSQL that allows family members to track the countries they have visited. Users can add new countries they have visited, view their visited countries, and switch between different family members.
 
 ## Features
 
